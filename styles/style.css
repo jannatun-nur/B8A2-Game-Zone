@@ -40,6 +40,7 @@ span{
 .buttons{
     text-align: start;
     background-color: rgb(233, 229, 229);
+    color: black;
     font-size: 21px;
     border: none;
     border-radius: 5px;
@@ -68,10 +69,59 @@ margin-left: 70px ;
 margin-top: 40px;
 
  }
+/* section 1 */
+.mainGroupContainer1{
+display: flex;
+justify-content: space-between;
+height: 400px;
+
+}
+.text1{
+    width: 400px;
+    height: 300px;
+    margin-right:500px;
+  margin: 50px 50px;
+  text-align: center;
+    
+}
+h1{
+    text-align: start;
+}
+h2{
+    text-align: start;
+    font-size: 73px;
+    margin-top: 20px;
+    color: rgb(195, 41, 226);
+}
+.icons{
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.leftButton1, .leftButton2{
+    background-color: deeppink;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 20px;
+}
+
+.leftButton2{
+    background-color: rgb(70, 195, 233);
+}
+
+
+.image12{
+    height: 400px;
+    width: 500px;
+    padding-right: 100px;
+}
+
  /* RIGHT */
  .head1{
     color: rgb(195, 41, 226);
     font-size: 50px;
+    text-align: right;
  }
 
  .groupText2{
@@ -98,4 +148,7 @@ margin-top: 40px;
  .head2{
     font-size: 35px;
     margin-bottom: 30px;
+    color:black;
  }
+
+
